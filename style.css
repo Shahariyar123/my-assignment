@@ -1,31 +1,36 @@
-*{
+* {
     margin: 0px;
 }
+
 /* header style */
-.header-container{
+.header-container {
     /* display: flex; */
-/* width: 100vh; */
-/* align-items: center; */
-background: rgba(229, 84, 115, 0.10)
+    /* width: 100vh; */
+    /* align-items: center; */
+    background: rgba(211, 79, 108, 0.2)
 }
-.parent{
+
+.parent {
     display: flex;
     width: 70%;
     margin: auto;
     /* justify-content: center; */
     align-items: center;
 }
- .parent-div{
+
+.parent-div {
     /* text-align: center; */
     margin-top: 30px;
-}   
-.title{
+}
+
+.title {
     width: 708px;
     color: #272727;
     font-size: 50px;
     /* text-align: center; */
 }
-.header-des{
+
+.header-des {
     color: rgba(39, 39, 39, 0.60);
     /* font-family: Lato; */
     font-size: 18px;
@@ -34,150 +39,179 @@ background: rgba(229, 84, 115, 0.10)
     line-height: 30px; */
     width: 70%;
 }
-.btn-color{
-  background-color:  #E55473;
-  color: white;
-font-size: 20px;
-font-weight: 700;
-border: none;
-gap: 10px;
-padding: 8px;
-margin-top: 20px;
+
+.btn-color {
+    background-color: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    gap: 10px;
+    padding: 8px;
+    margin-top: 20px;
 }
-.img-style{
+
+.img-style {
     /* width: 335px; */
     height: 500px;
     display: flex;
-    padding-left: 140px;
+    /* padding-left: 140px; */
     padding-top: 30px;
 }
+
 /* Flower-box ............*/
-.section-container{
+.section-container {
     /* width: 80vh; */
     margin-top: 150px;
 }
-.Flower-box{
+
+.Flower-box {
     /* text-align: center; */
-    width: 30%;
-    margin-left: 450px;
+    /* width: 30%; */
+    /* margin-left: 450px; */
     padding: 20px;
+
 }
-.box-header{
+
+.box-header {
     font-size: 20px;
     color: #272727;
     text-align: center;
 }
-.box-des{
+
+.box-des {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-  
+    width: 30%;
+    margin: auto;
+
 }
-.box{
+
+.box {
     display: flex;
     /* gap: 10px; */
     /* text-align: center; */
     /* padding: 20px; */
-    margin-left: 250px;
+    width: 70%;
+    margin: auto;
     /* align-items: baseline; */
-    gap: 10px;
+    gap: 60px;
 }
-.img-pd-1{
+
+.img-pd-1 {
     /* padding: 10px; */
 
 }
 
-.content{
+.content {
     text-align: center;
     text-decoration-line: underline;
     padding-top: 10px;
     font-size: 24px;
     color: #272727;
 }
-.img-bg-1{
-    background-color:  rgba(167, 33, 98, 0.15);
+
+.img-bg-1 {
+    background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     /* padding: 10px; */
     height: 538px;
 
 }
-.img-bg-2{
-  background-color: rgba(5, 151, 160, 0.15);
-  border-radius: 300px 300px 0px 0px;
-  /* height: 538px; */
-  padding-bottom: 165px;
+
+.img-bg-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+    /* padding-bottom: 165px; */
 
 }
-.img-bg-3{
+
+.img-bg-3 {
     background-color: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
     height: 538px;
 }
+
 /* Hot Deal section */
-.hot-deal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    width: 70%;
-    margin: 200px;
-    background-color: rgba(229, 84, 115, 0.05);
+.hot-deal {
+
+    margin: 128px 0 128px 0;
+
+    background-color: rgba(184, 52, 80, 0.175);
 }
-.main-heading{
+
+.main-heading {
     color: #272727;
     font-size: 30px;
     padding: 20px;
     text-align: center;
     /* width: 30%; */
 }
-.hot-des{
+
+.hot-des {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    /* width: 80%; */
-    /* height: 40px; */
-    /* padding:20px,20px,20px,0px; */
-/* font-weight: 400; */
-line-height: 30px;
-text-align: center;
-}
-.deals{
-    /* display: flex; */
-    width: 40%;
+    width: 60%;
     margin: auto;
+    
+}
+
+
+.deals-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 100px 0 100px 0;
+}
+
+.deals {
+    /* display: flex; */
     text-align: center;
     /* align-items: center; */
 }
-.mane-color{
-    margin-top:30px;
+
+.hot-des1{
+    color: rgba(39, 39, 39, 0.60);
+    width: 30%;
+    margin: auto;
+    text-align: center;
 }
+
 /* main container............. */
-.img-parent{
+.img-parent {
     display: flex;
-    /* align-items: ; */
     gap: 15px;
-    margin-top: 30px;
     justify-content: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 200px;
 }
+
 /* .main-container-section............*/
-.main-container{
+.main-container {
     background-image: url("Flower Asset/Rectangle 9.png");
     width: 1440px;
-height: 449px;
-text-align: center;
-background-repeat: no-repeat;
-justify-content:center;
-border-radius: 8px;
-margin-top: 200px;
-margin-left: 80px;
-align-items: center;
-padding-top: 150px;
-}
-.text-email{
+    height: 449px;
+    text-align: center;
+    background-repeat: no-repeat;
+    justify-content: center;
     border-radius: 8px;
-background: #FFF;
-width: 500px;
-height: 44px;
+    /* margin-top: 200px; */
+    margin: auto;
+    align-items: center;
+    padding-top: 150px;
 }
-.information{
+
+.text-email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 44px;
+}
+
+.information {
     justify-content: center;
     /* background-image: url('dsd.jpg'); */
     /* background-repeat: no-repeat; */
@@ -194,7 +228,7 @@ height: 44px;
 
 
 /*........,,,.,.,,.. footer container.....///// */
-.footer-container{
+.footer-container {
     background-color: #272727;
     color: #FFF;
     /* justify-content: center; */
@@ -204,11 +238,13 @@ height: 44px;
     /* width: 625px; */
     padding: 200px;
 }
-.footer-head{
+
+.footer-head {
     margin-bottom: 25px;
     font-size: 40px;
 }
-.footer-des{
+
+.footer-des {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 25px;
@@ -216,10 +252,11 @@ height: 44px;
     width: 625px;
     margin: auto;
 }
-.footer-lest{
+
+.footer-lest {
     margin-top: 20px;
 }
-.Flower-color{
+
+.Flower-color {
     color: #E55473;
 }
-

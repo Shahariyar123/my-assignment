@@ -119,7 +119,7 @@ margin-top: 20px;
     align-items: center;
     justify-content: space-between;
     width: 70%;
-    margin: auto;
+    margin: 200px;
     background-color: rgba(229, 84, 115, 0.05);
 }
 .hot-deal-title{
@@ -133,11 +133,11 @@ margin-top: 20px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     /* width: 80%; */
-    height: 40px;
+    /* height: 40px; */
     /* padding:20px,20px,20px,0px; */
-font-weight: 400;
+/* font-weight: 400; */
 line-height: 30px;
-/* text-align: center; */
+text-align: center;
 }
 .deals{
     /* display: flex; */
@@ -150,14 +150,43 @@ line-height: 30px;
     margin-top:30px;
 }
 /* main container............. */
-.main-container{
-    /* width: 180vh; */
-}
 .img-parent{
     display: flex;
     /* align-items: ; */
     gap: 15px;
     margin-top: 30px;
     justify-content: center;
+}
+/* .main-container-section............*/
+.main-container{
+    background-image: url("Flower Asset/Rectangle 9.png");
+    width: 1440px;
+height: 449px;
+text-align: center;
+background-repeat: no-repeat;
+justify-content:center;
+border-radius: 8px;
+margin-top: 200px;
+margin-left: 80px;
+align-items: center;
+padding-top: 150px;
+}
+.text-email{
+    border-radius: 8px;
+background: #FFF;
+width: 500px;
+height: 44px;
+/* border: none; */
+/* justify-content: center; */
+}
+/*........,,,.,.,,.. footer container.....///// */
+.footer-container{
+    background-color: #272727;
+    color: #FFF;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    padding: 200px;
 }
 

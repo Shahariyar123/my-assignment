@@ -122,7 +122,7 @@ margin-top: 20px;
     margin: 200px;
     background-color: rgba(229, 84, 115, 0.05);
 }
-.hot-deal-title{
+.main-heading{
     color: #272727;
     font-size: 30px;
     padding: 20px;
@@ -176,9 +176,23 @@ padding-top: 150px;
 background: #FFF;
 width: 500px;
 height: 44px;
-/* border: none; */
-/* justify-content: center; */
 }
+.information{
+    justify-content: center;
+    /* background-image: url('dsd.jpg'); */
+    /* background-repeat: no-repeat; */
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
 /*........,,,.,.,,.. footer container.....///// */
 .footer-container{
     background-color: #272727;
@@ -187,6 +201,25 @@ height: 44px;
     text-align: center;
     align-items: center;
     height: 100px;
+    /* width: 625px; */
     padding: 200px;
+}
+.footer-head{
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.footer-des{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 25px;
+    /* margin-bottom: 60px; */
+    width: 625px;
+    margin: auto;
+}
+.footer-lest{
+    margin-top: 20px;
+}
+.Flower-color{
+    color: #E55473;
 }
 
